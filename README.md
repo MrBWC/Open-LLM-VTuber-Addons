@@ -9,4 +9,3 @@ This addon lets your Twitch chat interact directly with the AI! Think of it as g
 - ✅ **Audio Playback**: The AI can hear and respond to your chat's messages.
 - ❌ **Movement**: The visual aspect of the VTuber reacting to chat is currently broken.
 
-- 
