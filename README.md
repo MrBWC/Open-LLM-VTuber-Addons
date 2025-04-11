@@ -1,5 +1,5 @@
 <h1 align="center"><a href="https://github.com/Open-LLM-VTuber/Open-LLM-VTuber">Open-LLM-VTuber </a></h1> 
-
+<h1>NOT OFFICIAL</h1>h1>
 ## Addons
 
 ### Twitch Chat Addon (BETA - Work in Progress)
