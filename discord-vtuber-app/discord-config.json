@@ -1,0 +1,7 @@
+{
+  "botToken": "bot token from discord.dev",
+  "channelId": "discord channel id",
+  "prefix": "!",
+  "mentionUser": true,
+  "adminId": "discord-id" // fot the !admode to activate permissions for !ws-recon to reconnect to the ws manually
+}

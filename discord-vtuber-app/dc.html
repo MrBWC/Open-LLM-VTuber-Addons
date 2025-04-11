@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>VTuber Discord Control</title>
+</head>
+<body>
+  <h2>VTuber Bot Settings</h2>
+  <label>Bot Token: <input type="password" id="botToken" /></label><br>
+  <label>Channel ID: <input type="text" id="channelId" /></label><br>
+  <label>Prefix: <input type="text" id="prefix" value="!" /></label><br>
+  <label><input type="checkbox" id="mentionUser" /> Mention user in reply</label><br><br>
+
+  <button onclick="saveConfig()">💾 Save Config</button>
+  <button onclick="startBot()">🟢 Start Bot</button>
+  <button onclick="stopBot()">🔴 Stop Bot</button>
+
+  <p id="status">Bot Status: OFF</p>
+  <div id="lastAiResponse"></div>
+  <div style="margin-top: 20px;">
+    <h4>Console Output:</h4>
+    <pre id="consoleLog" style="background:#111;color:#0f0;padding:10px;height:200px;overflow:auto;"></pre>
+  </div>  
+  <script src="config.js"></script>
+</body>
+</html>
+
