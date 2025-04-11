@@ -22,3 +22,9 @@ A second companion project built in Electron that brings your AI VTuber to Disco
 
 #### Demo:
 ![Discord VTuber App Demo](https://cdn.discordapp.com/attachments/1261573577459630144/1360215606984577024/image.png?ex=67fa4f00&is=67f8fd80&hm=fe8d07f7d4fb8f2f409d2a866754403d71c8e03a8f03ae0c5de00ae7868c11fd&)
+
+
+---
+
+### Any Problems?
+- Add me on dc ".moinse908"
