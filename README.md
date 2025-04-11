@@ -13,7 +13,7 @@ This addon lets your Twitch chat interact directly with the AI! Think of it as g
 
 
 ### Discord VTuber App (BETA)
-A second companion project built in Electron that brings your AI VTuber to Discord! This app lets your VTuber **speak through a Discord bot** using AI-generated voice responses.
+A second companion project built in Electron that brings your AI VTuber to Discord! This app lets your VTuber **speak and text through a Discord bot** using AI-generated voice responses.
 
 #### Features:
 - 🎙️ Uses AI voice to speak directly in Discord voice channels. (still work in progress)
