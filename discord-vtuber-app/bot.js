@@ -50,7 +50,12 @@ client.once('ready', () => {
 
 // Nachrichtenhandling in Discord
 client.on('messageCreate', async (message) => {
-  if (message.author.bot || !message.content.startsWith(config.prefix)) return;
+  if (message.author.bot) return;
+  
+  // 👉 Only process messages from the allowed channel
+  if (message.channel.id !== config.channelId) return;
+
+  if (!message.content.startsWith(config.prefix)) return;
 
   // Admin-Only Befehle
   if (message.author.id === config.adminId) {
@@ -77,7 +82,6 @@ client.on('messageCreate', async (message) => {
     message.reply("⚠️ VTuber Backend nicht verbunden.");
   }
 });
-
 // Discord Login
 client.login(config.botToken);
 
